@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'TheJamsil5Bold';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.App {
+  text-align: center;
+  height: 850px;
+  background-size: 100% 100%;
+}
+.home::-webkit-scrollbar{
+  display: none;
+}
+.nav{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  width: 100%;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.663);
+}
+.block{
+  width: 33%;
+}
+.logo{
+  font-family: 'TheJamsil5Bold';
+  width: 33%;
+}
+.help{
+  width: 33%;
+}
+
+.card{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  border: 10px solid white;
+  border-radius: 8px;
+  width: 40%;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.weather-info {
+  text-align: center;
+}
+
+.weather-info h2 {
+  margin-top: 0;
+}
+
+.weather-info p {
+  margin: 0;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.close-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: #0056b3;
+}
+
+.card-wrapper {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  width: 60%;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
